@@ -1,9 +1,13 @@
 .articles {
+    display: flex;
+    width: 100%;
     &__main {
         display: flex;
-        gap: 1%;
+        width: 50%;
     }
     &__others {
-
+        display: flex;
+        width: 50%;
+        flex-direction: column;
     }
 }

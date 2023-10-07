@@ -3,13 +3,15 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 25em;
-    height: 37.5em;
+    width: 100%;
+    padding: 1em;
     cursor: pointer;
     .big-card {
         &__photo {
+            
             img {
                 width: 100%;
+                max-height: 30em;
             }
         }
         &__title {
