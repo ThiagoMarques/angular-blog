@@ -18,4 +18,10 @@ describe('MenuTitleComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it(`should have as title 'angular-blog'`, () => {
+    const fixture = TestBed.createComponent(MenuTitleComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Thiago Marques');
+  });
 });

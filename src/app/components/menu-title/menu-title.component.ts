@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./menu-title.component.scss']
 })
 export class MenuTitleComponent {
-
+  title: string = "Thiago Marques"
 }
