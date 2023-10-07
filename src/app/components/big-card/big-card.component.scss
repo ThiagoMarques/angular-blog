@@ -1,0 +1,28 @@
+.container__big-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 25em;
+    height: 37.5em;
+    .big-card {
+        &__photo {
+            img {
+                width: 25em;
+                height: 15em;
+            }
+        }
+        &__title {
+            h1 {
+                font-size: 1.5em;
+                margin: 0.75em 0;
+            }
+    
+        }
+        &__description {
+            p {
+    
+            }
+        }
+    }
+}

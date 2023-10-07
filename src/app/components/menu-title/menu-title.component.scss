@@ -1,5 +1,16 @@
 .container {
     &__menu-title {
-        color: white;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 4em;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        hr {
+            margin: 0.75em 0;
+        }
     }
 }
