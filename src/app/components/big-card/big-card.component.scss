@@ -5,11 +5,11 @@
     align-items: flex-start;
     width: 25em;
     height: 37.5em;
+    cursor: pointer;
     .big-card {
         &__photo {
             img {
-                width: 25em;
-                height: 15em;
+                width: 100%;
             }
         }
         &__title {
