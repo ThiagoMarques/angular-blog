@@ -1,0 +1,17 @@
+.container__menu-bar {
+    display: flex;
+    width: 100%;
+    ul {
+        display: flex;
+        gap: 10%;
+    }
+    li {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+}
