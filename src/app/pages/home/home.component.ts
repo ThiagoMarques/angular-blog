@@ -29,14 +29,17 @@ export class HomeComponent {
   /* Small Card */
   smallCardData = [
     {
+      id: '1',
       image: 'assets/img/example.png',
       title: 'Saiu uma nova versão do Angular'
     },
     {
+      id: '2',
       image: 'assets/img/example.png',
       title: 'Saiu uma nova versão do Angular'
     },
     {
+      id: '3',
       image: 'assets/img/example.png',
       title: 'Saiu uma nova versão do Angular'
     }
