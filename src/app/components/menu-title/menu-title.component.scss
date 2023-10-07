@@ -14,3 +14,12 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .container {
+        &__menu-title {
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+}

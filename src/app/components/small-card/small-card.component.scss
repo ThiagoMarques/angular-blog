@@ -36,3 +36,17 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .container__small-card {
+        .content-small-card {
+            flex-direction: column;
+            &__photo {
+                margin: auto;
+                width: 50%;
+            }
+            &__title {
+                width: 100%;
+            }
+        }
+    }
+}
