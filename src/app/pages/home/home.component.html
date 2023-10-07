@@ -1,14 +1,21 @@
 <header>
     <app-menu-bar></app-menu-bar>
 </header>
-<app-menu-title></app-menu-title>
+<app-menu-title [title]="titleBlog"></app-menu-title>
 <div class="articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card
+        [imagePath]="bigCardImagePath"
+        [title]="bigCardTitle"
+        [content]="bigCardContent"
+        ></app-big-card>
     </div>
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <div *ngFor="let item of smallCardData">
+            <app-small-card
+            [imagePath]="item.image"
+            [title]="item.title"
+            ></app-small-card>
+        </div>
     </div>
 </div>

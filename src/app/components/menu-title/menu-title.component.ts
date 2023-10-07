@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./menu-title.component.scss']
 })
 export class MenuTitleComponent {
-  title: string = "Thiago Marques"
+  @Input() title: string = ''
 }

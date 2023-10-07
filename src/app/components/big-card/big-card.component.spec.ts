@@ -18,4 +18,11 @@ describe('BigCardComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  xit(`should test title - bigcard`, () => {
+    const fixture = TestBed.createComponent(BigCardComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('Saiu uma nova versão do Angular');
+    expect(app.content).toEqual('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+  });
 });

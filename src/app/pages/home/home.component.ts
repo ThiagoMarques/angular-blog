@@ -9,7 +9,7 @@ import { MenuBarComponent } from 'src/app/components/menu-bar/menu-bar.component
   selector: 'app-home',
   standalone: true,
   imports: [
-    CommonModule, 
+    CommonModule,
     MenuTitleComponent,
     BigCardComponent,
     SmallCardComponent,
@@ -19,5 +19,27 @@ import { MenuBarComponent } from 'src/app/components/menu-bar/menu-bar.component
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  /* Title Blog */
+  titleBlog = "Angular Blog"
+  /* Big Card */
+  bigCardImagePath: string = 'assets/img/placeholder.png';
+  bigCardTitle: string = 'Saiu uma nova versão do Angular'
+  bigCardContent: string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+
+  /* Small Card */
+  smallCardData = [
+    {
+      image: 'assets/img/example.png',
+      title: 'Saiu uma nova versão do Angular'
+    },
+    {
+      image: 'assets/img/example.png',
+      title: 'Saiu uma nova versão do Angular'
+    },
+    {
+      image: 'assets/img/example.png',
+      title: 'Saiu uma nova versão do Angular'
+    }
+  ]
 
 }
