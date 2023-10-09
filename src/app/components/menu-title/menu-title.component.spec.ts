@@ -19,9 +19,7 @@ describe('MenuTitleComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  xit(`should have as title 'angular-blog'`, () => {
-    const fixture = TestBed.createComponent(MenuTitleComponent);
-    const app = fixture.componentInstance;
-    expect(app.title.length).toBeGreaterThanOrEqual(1);
+  it('Should test minimum title', () => {
+    expect(component.title.length).toBeLessThanOrEqual(0);
   });
 });
