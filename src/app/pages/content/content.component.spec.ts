@@ -3,6 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ContentComponent } from './content.component';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { of } from 'rxjs';
+import { dataFake } from 'src/app/data/dataFake';
 
 class ParamMapStub {
   constructor(private paramMap: any) {}
@@ -46,5 +47,12 @@ describe('ContentComponent', () => {
   });
   it('Should test minimum text', () => {
     expect(component.text.length).toBeLessThanOrEqual(0);
+  });
+  it('Should test fake data result', () => {
+    component.setValuesToComponent('1');
+    expect(component.titleContent).toEqual(dataFake[0].title);
+    expect(component.description).toEqual(dataFake[0].description);
+    expect(component.photoCover).toEqual(dataFake[0].photo);
+    expect(component.text).toEqual(dataFake[0].text);
   });
 });
