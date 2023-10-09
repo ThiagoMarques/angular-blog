@@ -1,27 +1,79 @@
-# AngularBlog
+# Blog simples em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Esta aplicação foi criada com o objetivo de praticar e consolidar os fundamentos do Angular. Durante o desenvolvimento desta aplicação, diversos conceitos essenciais foram explorados e aplicados.
 
-## Development server
+![angular_blog](https://github.com/ThiagoMarques/angular-blog/assets/5391998/aa4e8108-a0e4-41dc-ba90-11ac8a2034bc)
+![coverage](https://github.com/ThiagoMarques/angular-blog/assets/5391998/4fa53284-d833-4163-af64-85902aaafa88)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Conceitos Estudados
 
-## Code scaffolding
+Aqui estão os principais conceitos estudados e aplicados neste repositório:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **NPM:**
+   - Utilização do Node Package Manager (NPM) para gerenciamento de dependências e scripts.
 
-## Build
+2. **SASS:**
+   - Utilização do pré-processador CSS SASS para melhorar a organização e reutilização do código CSS.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Reutilização de Código:**
+   - Práticas de reutilização de código para evitar duplicação e promover a manutenibilidade.
 
-## Running unit tests
+4. **Versionamento:**
+   - Utilização de um sistema de controle de versão (Git) para gerenciar o versionamento do código.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. **Boas Práticas com Cores:**
+   - Boas práticas na utilização e aplicação de esquemas de cores na interface da aplicação.
 
-## Running end-to-end tests
+6. **Standalone Components:**
+   - Criação de componentes isolados e independentes, seguindo o princípio de standalone components.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+7. **Roteamento:**
+   - Implementação de roteamento para navegação eficiente dentro da aplicação.
 
-## Further help
+8. **Tipagem de Dados:**
+   - Utilização de tipagem de dados para garantir uma aplicação mais segura e robusta.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+9. **Diretivas:**
+   - Implementação e utilização de diretivas para controle dinâmico do DOM.
+
+10. **JSON:**
+    - Manipulação e utilização de dados em formato JSON.
+
+## Executando a Aplicação
+
+Para executar a aplicação, siga os passos abaixo:
+
+1. Certifique-se de ter o Angular CLI instalado globalmente. Caso não tenha, instale com o seguinte comando:
+   ```
+   npm install -g @angular/cli
+   ```
+
+2. Clone este repositório:
+   ```
+   git clone <URL do repositório>
+   ```
+
+3. Navegue até o diretório da aplicação:
+   ```
+   cd angular-blog
+   ```
+
+4. Instale as dependências:
+   ```
+   npm install
+   ```
+
+5. Inicie a aplicação:
+   ```
+   ng serve
+   ```
+
+6. Acesse a aplicação no seu navegador em `http://localhost:4200/`.
+
+## Contribuição
+
+Se desejar contribuir com melhorias, correções ou novos conceitos, fique à vontade para abrir um pull request. Suas contribuições são mais que bem-vindas!
+
+## Licença
+
+Este projeto está licenciado sob a Licença [MIT](LICENSE).
