@@ -19,7 +19,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     display: flex;
     width: 100%;
     justify-content: center;
-    margin: 1.5em;
+    margin: 1em 0;
   }
   `],
   template: 

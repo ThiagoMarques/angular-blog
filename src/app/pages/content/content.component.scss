@@ -33,7 +33,18 @@
             display: flex;
             width: 100%;
             justify-content: center;
+            h2 {
+                font-size: 1.125em;
+            }
+        }
+        &__text {
+            display: flex;
+            width: 100%;
+            justify-content: center;
             padding: 1em;
+            p {
+                text-align: justify;
+            }
         }
     }
 }
