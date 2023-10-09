@@ -1,0 +1,25 @@
+.container {
+    &__menu-title {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 4em;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+        hr {
+            margin: 0.75em 0;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        &__menu-title {
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+}

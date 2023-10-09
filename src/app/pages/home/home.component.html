@@ -1,0 +1,24 @@
+
+<app-menu-title [title]="titleBlog"></app-menu-title>
+<div class="articles">
+    <div class="articles__main">
+        <div *ngFor="let item of dataNews | slice:0:1">
+            <app-big-card
+            [id]="item.id"
+            [imagePath]="item.photo"
+            [title]="item.title"
+            [content]="item.description"
+            ></app-big-card>
+        </div>
+
+    </div>
+    <div class="articles__others">
+        <div *ngFor="let item of dataNews | slice:1:dataNews.length">
+            <app-small-card
+            [id]="item.id"
+            [imagePath]="item.photo"
+            [title]="item.title"
+            ></app-small-card>
+        </div>
+    </div>
+</div>
